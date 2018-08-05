@@ -1,6 +1,0 @@
-node default {
-  file { '/tmp/newfile' :
-  ensure => 'file',
-  content => 'Hello this is test file',
-  }
-}
